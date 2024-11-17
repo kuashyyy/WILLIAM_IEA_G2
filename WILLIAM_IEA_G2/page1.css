@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "PP Mori", sans-serif;
+        src: url(fonts/PPMORI-REGULAR.OTF) format("opentype");
+}
+    
+body {
+        font-family: "PP Mori", sans-serif;
+        color: #191919;
+
+        width: 100%;
+        background-image: url('img/fond\ texture.jpg');
+        background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.text-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: skewX(-14deg);
+}
+
+.logo-yeuz-bas a:hover {
+    transform: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    top: -30px;
+    position: relative;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    gap: 10px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+.flèche {
+    width: 92px;
+    height: 92px;
+}
+
+.yeuzz {
+    width: 101px;
+    height: 71px;
+}
+
+.fixedbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.fixedbar p {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    padding: 30px;
+}
+
+.intro h1 {
+    font-size: 150px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+  
+.intro h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+  
+.intro p {
+    font-size: 28px;
+    max-width: 700px;
+}
+
+.recent {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent h1 {
+    font-size: 110px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.cover-clem {
+    width: 900px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.cover-clem-right h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.cover-clem-right h2 {
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cover-clem-right p {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.cover-eyes {
+    width: 900px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.cover-eyes-right h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.cover-eyes-right h2 {
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cover-eyes-right p {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.cover-hjeunecrack {
+    width: 900px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.cover-hjeunecrack-right h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.cover-hjeunecrack-right h2 {
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cover-hjeunecrack-right p {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.cover-headless {
+    width: 900px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.cover-headless-right h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.cover-headless-right h2 {
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cover-headless-right p {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.cover-headless1 {
+    width: 900px;
+    display: flex;
+}
+
+.cover-headless1-right h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.cover-headless1-right h2 {
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cover-headless1-right p {
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.line {
+    margin: 90px 30px;
+    height: 2px;
+    background-color: #191919; 
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 30px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    left: 0;
+    bottom: 0;
+    font-size: 24px;
+}
+
+.logo-yeuz-bas1 {
+    width: auto;
+    height: 90px;
+}
+
+.logo-yeuz-bas {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        padding: 10px;
+        font-size: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .header-left {
+        gap: 10px;
+        position: relative;
+        top: 0;
+    }
+
+    .header-left img {
+        width: 50px;
+        height: auto;
+    }
+
+    .header-right {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-right p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .flèche {
+        width: 50px;
+        height: 50px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .intro h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .intro p {
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .recent {
+        padding: 10px;
+    }
+
+    .recent h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .cover-clem, .cover-eyes, .cover-hjeunecrack, .cover-headless, .cover-headless1 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .cover-clem img, 
+    .cover-eyes img, 
+    .cover-hjeunecrack img, 
+    .cover-headless img, 
+    .cover-headless1 img {
+        width: 80%;
+        max-width: 280px;
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .cover-clem-right, 
+    .cover-eyes-right, 
+    .cover-hjeunecrack-right, 
+    .cover-headless-right, 
+    .cover-headless1-right {
+        text-align: left;
+    }
+
+    .cover-clem-right h1, 
+    .cover-eyes-right h1, 
+    .cover-hjeunecrack-right h1, 
+    .cover-headless-right h1, 
+    .cover-headless1-right h1 {
+        font-size: 18px;
+    }
+
+    .cover-clem-right h2, 
+    .cover-eyes-right h2, 
+    .cover-hjeunecrack-right h2, 
+    .cover-headless-right h2, 
+    .cover-headless1-right h2 {
+        font-size: 16px;
+    }
+
+    .cover-clem-right p, 
+    .cover-eyes-right p, 
+    .cover-hjeunecrack-right p, 
+    .cover-headless-right p, 
+    .cover-headless1-right p {
+        font-size: 14px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .socials {
+        font-size: 14px;
+        bottom: 0;
+    }
+
+    .fixedbar {
+        font-size: 14px;
+        bottom: 0;
+        position: relative;
+    }
+
+    .logo-yeuz-bas1 {
+        opacity: 0;
+    }
+}
+
